@@ -1,0 +1,14 @@
+/Users/Blaine/NetBeansProjects/VendingMachine/src/main/java/com/vendingmachine/controller/VendingMachineController.java
+/Users/Blaine/NetBeansProjects/VendingMachine/src/main/java/com/vendingmachine/service/VendingMachineServiceLayer.java
+/Users/Blaine/NetBeansProjects/VendingMachine/src/main/java/com/vendingmachine/ui/UserIOConsoleImpl.java
+/Users/Blaine/NetBeansProjects/VendingMachine/src/main/java/com/vendingmachine/dao/InsufficientFundsException.java
+/Users/Blaine/NetBeansProjects/VendingMachine/src/main/java/com/mycompany/vendingmachine/App.java
+/Users/Blaine/NetBeansProjects/VendingMachine/src/main/java/com/vendingmachine/dto/Snack.java
+/Users/Blaine/NetBeansProjects/VendingMachine/src/main/java/com/vendingmachine/ui/UserIO.java
+/Users/Blaine/NetBeansProjects/VendingMachine/src/main/java/com/vendingmachine/dao/NoItemInventoryException.java
+/Users/Blaine/NetBeansProjects/VendingMachine/src/main/java/com/vendingmachine/dao/VendingMachineDaoFileImpl.java
+/Users/Blaine/NetBeansProjects/VendingMachine/src/main/java/com/vendingmachine/ui/VendingMachineView.java
+/Users/Blaine/NetBeansProjects/VendingMachine/src/main/java/com/vendingmachine/dao/VendingMachineAudit.java
+/Users/Blaine/NetBeansProjects/VendingMachine/src/main/java/com/vendingmachine/dao/VendingMachineDao.java
+/Users/Blaine/NetBeansProjects/VendingMachine/src/main/java/com/vendingmachine/service/VendingMachineServiceLayerImpl.java
+/Users/Blaine/NetBeansProjects/VendingMachine/src/main/java/com/vendingmachine/dto/ChangeMaker.java

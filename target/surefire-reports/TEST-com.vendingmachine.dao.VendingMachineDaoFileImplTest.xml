@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vendingmachine.dao.VendingMachineDaoFileImplTest" time="0.182" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vendingmachine.dao.VendingMachineDaoFileImplTest" time="0.094" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/Blaine/NetBeansProjects/VendingMachine/target/test-classes:/Users/Blaine/NetBeansProjects/VendingMachine/target/classes:/Users/Blaine/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/Blaine/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/Blaine/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/Blaine/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/Blaine/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/Users/Blaine/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/Blaine/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
+    <property name="java.class.path" value="/Users/Blaine/NetBeansProjects/VendingMachine/target/test-classes:/Users/Blaine/NetBeansProjects/VendingMachine/target/classes:/Users/Blaine/.m2/repository/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE.jar:/Users/Blaine/.m2/repository/org/springframework/spring-aop/4.3.4.RELEASE/spring-aop-4.3.4.RELEASE.jar:/Users/Blaine/.m2/repository/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.jar:/Users/Blaine/.m2/repository/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE.jar:/Users/Blaine/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Blaine/.m2/repository/org/springframework/spring-expression/4.3.4.RELEASE/spring-expression-4.3.4.RELEASE.jar:/Users/Blaine/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/Blaine/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/Blaine/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/Blaine/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/Blaine/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/Users/Blaine/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/Blaine/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
@@ -16,10 +16,10 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.13.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/Blaine/NetBeansProjects/VendingMachine/target/surefire/surefirebooter6812202437850155095.jar /Users/Blaine/NetBeansProjects/VendingMachine/target/surefire 2021-11-18T00-02-51_870-jvmRun1 surefire5104695306939772341tmp surefire_03340728818934941154tmp"/>
+    <property name="sun.java.command" value="/Users/Blaine/NetBeansProjects/VendingMachine/target/surefire/surefirebooter15293951743707496728.jar /Users/Blaine/NetBeansProjects/VendingMachine/target/surefire 2021-11-22T15-16-38_994-jvmRun1 surefire5139368283403109390tmp surefire_07564484450995452497tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/Blaine/NetBeansProjects/VendingMachine/target/test-classes:/Users/Blaine/NetBeansProjects/VendingMachine/target/classes:/Users/Blaine/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/Blaine/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/Blaine/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/Blaine/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/Blaine/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/Users/Blaine/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/Blaine/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/Blaine/NetBeansProjects/VendingMachine/target/test-classes:/Users/Blaine/NetBeansProjects/VendingMachine/target/classes:/Users/Blaine/.m2/repository/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE.jar:/Users/Blaine/.m2/repository/org/springframework/spring-aop/4.3.4.RELEASE/spring-aop-4.3.4.RELEASE.jar:/Users/Blaine/.m2/repository/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.jar:/Users/Blaine/.m2/repository/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE.jar:/Users/Blaine/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Blaine/.m2/repository/org/springframework/spring-expression/4.3.4.RELEASE/spring-expression-4.3.4.RELEASE.jar:/Users/Blaine/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/Blaine/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/Blaine/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/Blaine/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/Blaine/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/Users/Blaine/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/Blaine/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/Blaine"/>
     <property name="user.language" value="en"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/Blaine/NetBeansProjects/VendingMachine/target/surefire/surefirebooter6812202437850155095.jar"/>
+    <property name="surefire.real.class.path" value="/Users/Blaine/NetBeansProjects/VendingMachine/target/surefire/surefirebooter15293951743707496728.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
@@ -62,8 +62,8 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testCheckFunds" classname="com.vendingmachine.dao.VendingMachineDaoFileImplTest" time="0.103"/>
+  <testcase name="testCheckFunds" classname="com.vendingmachine.dao.VendingMachineDaoFileImplTest" time="0.064"/>
   <testcase name="testAddMoney" classname="com.vendingmachine.dao.VendingMachineDaoFileImplTest" time="0.001"/>
-  <testcase name="testAddSnack" classname="com.vendingmachine.dao.VendingMachineDaoFileImplTest" time="0.012"/>
-  <testcase name="testBuySnackAndDecrement" classname="com.vendingmachine.dao.VendingMachineDaoFileImplTest" time="0.016"/>
+  <testcase name="testAddSnack" classname="com.vendingmachine.dao.VendingMachineDaoFileImplTest" time="0.007"/>
+  <testcase name="testBuySnackAndDecrement" classname="com.vendingmachine.dao.VendingMachineDaoFileImplTest" time="0.004"/>
 </testsuite>

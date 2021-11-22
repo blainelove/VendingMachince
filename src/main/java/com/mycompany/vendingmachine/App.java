@@ -11,19 +11,31 @@ import com.vendingmachine.service.VendingMachineServiceLayerImpl;
 import com.vendingmachine.ui.UserIO;
 import com.vendingmachine.ui.UserIOConsoleImpl;
 import com.vendingmachine.ui.VendingMachineView;
-//import org.springframework.context.ApplicationContext;
-//import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+
+
+
 /**
  *
  * @author Blaine
  */
 public class App {
+     
       public static void main(String[] args) {
-          UserIO vmIo = new UserIOConsoleImpl();
-          VendingMachineView vmView = new VendingMachineView(vmIo);
-          VendingMachineDao vmDao = new VendingMachineDaoFileImpl();
-          VendingMachineServiceLayerImpl vmService = new VendingMachineServiceLayerImpl(vmDao);
-          VendingMachineController controller = new VendingMachineController(vmService, vmView, vmIo);
-          controller.run();
-    }   
+
+        ApplicationContext ctx = 
+           new ClassPathXmlApplicationContext("ApplicationContext.xml") ;
+        VendingMachineController controller = 
+           ctx.getBean("controller", VendingMachineController.class);
+        controller.run();
+    }
+//          UserIO vmIo = new UserIOConsoleImpl();
+//          VendingMachineView vmView = new VendingMachineView(vmIo);
+//          VendingMachineDao vmDao = new VendingMachineDaoFileImpl();
+//          VendingMachineServiceLayerImpl vmService = new VendingMachineServiceLayerImpl(vmDao);
+//          VendingMachineController controller = new VendingMachineController(vmService, vmView, vmIo);
+//          controller.run();
+       
 }

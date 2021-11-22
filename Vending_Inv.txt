@@ -1,4 +1,4 @@
 Peanuts:9:2.0
 Chocolate:4:4.0
-Cheezits:0:5.0
-Gum:6:1.0
+Cheezits:1:5.0
+Gum:5:1.0

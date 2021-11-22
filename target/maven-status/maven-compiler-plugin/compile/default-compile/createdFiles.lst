@@ -2,7 +2,6 @@ com/vendingmachine/dao/InsufficientFundsException.class
 com/vendingmachine/service/VendingMachineServiceLayerImpl.class
 com/vendingmachine/dao/NoItemInventoryException.class
 com/vendingmachine/service/VendingMachineServiceLayer.class
-com/vendingmachine/dao/VendingMachineAudit.class
 com/vendingmachine/dto/Snack.class
 com/vendingmachine/controller/VendingMachineController.class
 com/vendingmachine/dto/ChangeMaker.class
